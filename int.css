@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#bg {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 150px 150px;
+    height: 100%;
+    width: 10%;
+    background-color: white;
+}
+
+#left a {
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(158, 158, 158);
+}
+
+#left i {
+    margin-right: 10px;
+}
+
+#left h1 {
+    font-size: 180px;
+    letter-spacing: -12px;
+    margin-bottom: 200px;
+}
+
+#left #lineup a {
+    text-decoration: none;
+    display: block;
+    font-size: 50px;
+    color: rgb(165, 165, 165);
+    font-weight: 500;
+    margin-top: 120px;
+
+
+}
+
+#center {
+    height: 100%;
+    width: 35%;
+    background-image: url(https://images.unsplash.com/photo-1532579821608-3f220ab206e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA0fHxpbnRlcmlvciUyMGRlc2lnbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60);
+    background-size: cover;
+}
+
+#right {
+    padding: 100px;
+    position: relative;
+    height: 100%;
+    width: 55%;
+    background-color: white;
+}
+
+#box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 65%;
+    /* background-color: gray; */
+}
+
+#box #lineelm {
+    display: flex;
+    justify-content: center;
+}
+
+#box .line {
+    width: 1000px;
+    height: 8px;
+    background-color: black;
+    margin: 80px 20px;
+}
+
+#box #lineelm h1 {
+    font-size: 850%;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#box>h1 {
+    font-size: 400px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -5%;
+}
+
+#box>p {
+    font-size: 50px;
+    font-weight: 200;
+}
+
+#right #logo {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+#right #logo a {
+    font-size: 50px;
+    text-decoration: none;
+    padding-left: 40px;
+    color: gray;
+}
+
+#inputdiv {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    margin-top: 40px;
+    width: 100%;
+    height: 180px;
+    background-color: white;
+}
+
+#inputdiv input {
+    width: 80%;
+    height: 150px;
+    padding: 70px;
+    padding-left: 120px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 15px 30px rgb(37, 37, 37);
+    font-size: 70px;
+    font-weight: 100;
+    border: 1px solid rgb(148, 145, 145)
+    
+}
+
+#inputdiv button {
+    width: 20%;
+    height: 150px;
+    font-size: 80px;
+    font-weight: 300;
+    background-color: rgb(251, 118, 118);
+    color: white;
+    border: 1px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 15px 50px rgb(243, 121, 121);
+    /* box-shadow: 2px 2px 2px 2px black; */
+}
+#inputdiv a{
+    font-size: 80px;
+    text-decoration: none;
+}
+#inputdiv i{
+    position: absolute;
+    top: 50%;
+    left: 2%;
+    transform: translate(0, -52%);
+    font-weight: 100;
+    color: gray;
+    font-size: 50px;
+}
+#feature{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 25%;
+    /* background-color: red; */
+    margin-top: 40%;
+}
+#feature #ftr1{
+    width: 50%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/970418830/photo/white-interior-white-hanging-chair-cocoon-chair.jpg?s=612x612&w=0&k=20&c=qOC_o1jS97hRvQ7Wkp06EnqsPkRKN0EHxWBidWpD2QU=);
+    background-position: center;
+    background-size: cover;
+    border-radius: 12px;
+}
+#feature p{
+    position: relative;
+    font-size: 50px;
+    width: 50%;
+    margin-left: 50px;
+    font-weight: 500;
+    opacity: .5;
+
+
+}
+#feature i{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    font-size: 150px;
+    opacity: .6;
+}
+#links{
+    position: absolute;
+    /* background-color: red; */
+    font-size: 50px;
+    font-size: 50px;
+    transform-origin: 100% 0;
+    transform: rotate(-90deg);
+    right: 170px;
+    bottom: 40%;
+    
+}
+#links a{
+    text-decoration: none;
+    opacity: .6;
+    margin-left: 50px;
+}
+#down{
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+    
+
+}
+#down i{
+    font-size: 200px;
+    opacity: .3;
+    font-weight: 300;
+}
+
